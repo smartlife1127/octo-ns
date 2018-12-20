@@ -77,7 +77,7 @@
   
 ##  架构介绍
 
-![avatar3](./docs/image/ns_components.png)
+<div align="center"> ![avatar3](./docs/image/ns_components.png)
 
    OCTO NS由SGAgent、NSC、注册中心、Scanner组成，其中部分管理端Portal页面组成NS功能，如更改服务提供者状态、调整权重. 服务提供者通过通信框架及SDK接入NS，进行服务注册和服务发现.
    
