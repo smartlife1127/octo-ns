@@ -179,7 +179,7 @@ SGService service = new SGService();
 MnsInvoker.registServiceWithCmd(1,service);//增量模式注册
 ~~~
 
-#####使用NSInvoker发起服务发现流程
+##### 使用NSInvoker发起服务发现流程
 下面是发现上述服务的例子
 
 ~~~
