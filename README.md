@@ -5,7 +5,7 @@
  命名服务(Naming Service，以下简称NS)是美团从2015年至今，OCTO服务治理体系进行服务注册、服务发现的统一应用简称，其由多个组件和服务组成，包括服务治理代理SGAgent、命名服务缓存NSC、统一健康检查服务Scanner以及注册中心存储ZooKeeper，并配套一体化的运营管理平台Portal实现人工管理托管.
   
  NS支持Java Sdk(详见NSInvoker介绍) 及C++ SDK(NSSdk介绍)注册中心存储ZooKeeper，可帮助业务快速进行服务注册、服务发现，支持多种服务分组路由、权重可视化自定义、健康检查等功能，通过它可快速用微服务方式构建自己稳定的可靠分布式应用，并快速实现服务治理. NS架构图如下.  
-![NS](./docs/image/ns.png = 200x300)  
+![NS](./docs/image/ns.png =200x300)  
 
 * 服务Service
 
