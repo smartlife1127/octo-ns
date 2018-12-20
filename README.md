@@ -7,8 +7,6 @@
  NS支持Java Sdk(详见NSInvoker介绍) 及C++ SDK(NSSdk介绍)注册中心存储ZooKeeper，可帮助业务快速进行服务注册、服务发现，支持多种服务分组路由、权重可视化自定义、健康检查等功能，通过它可快速用微服务方式构建自己稳定的可靠分布式应用，并快速实现服务治理. NS架构图如下.  
 
 <div align=center> <img src="./docs/image/ns.png" width="400"> </div align=center> 
- 
- 
 
 * 服务Service
 
@@ -59,7 +57,7 @@
 
   服务治理策略实现下移到NS层，简化框架及SDK功能.
   
- ![nstrait](./docs/image/ns_trait.png)
+ <div align=center> <img src="./docs/image/ns_trait.png" width="400"> </div align=center> 
   
   
 * 支持水平扩展的分布式服务治理代理(SGAgent)
@@ -78,7 +76,7 @@
   
 ##  架构介绍
 
-![avatar3](./docs/image/ns_components.png)
+<div align=center> <img src="./docs/image/ns_components.png" width="400"> </div align=center> 
 
    OCTO NS由SGAgent、NSC、注册中心、Scanner组成，其中部分管理端Portal页面组成NS功能，如更改服务提供者状态、调整权重. 服务提供者通过通信框架及SDK接入NS，进行服务注册和服务发现.
    
@@ -112,9 +110,9 @@
   
    OCTO NS支持使用NSInvoker(Java SDK)和Mns-SDK发起服务注册，可依赖本地 SGAgent或哨兵SGAgent进行，在使用哨兵SG_Agent发起注册时，SDK可通过    NSC服务获取远程SGAgent哨兵机器列表信息, 通过获得的哨兵机器节点发起服务注册流程，服务提供者注册数据会被写入到ZooKeeper中.从管理端Portal服务提供者页面可查看到不同环境注册的服务提供者信息.
  
-![avatar4](./docs/image/registry_sucess.png)
- 
- 
+
+<div align=center> <img src="./docs/image/registry_sucess.png" width="400"> </div align=center> 
+
 * 服务发现
 
   OCTO NS支持基于HTTP和RPC的服务发现，服务消费者可通过调用 SGAgent服务发现接口发起获取服务提供者列表流程，SGAgent会优先从NSC进行服务发现，从NSC服务发现失败时会降级从ZooKeeper获取服务提供者数据.
@@ -123,7 +121,7 @@
 
   OCTO Scanner运行时会不断扫描Zookeeper中注册的服务节点，然后依次检查每个服务提供者是否正常.
   
-![avatar6](./docs/image/scanner_traits.png)
+<div align=center> <img src="./docs/image/scanner_traits.png" width="400"> </div align=center> 
 
 ##  使用文档
 
