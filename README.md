@@ -6,7 +6,7 @@
   
  NS支持Java Sdk(详见NSInvoker介绍) 及C++ SDK(NSSdk介绍)注册中心存储ZooKeeper，可帮助业务快速进行服务注册、服务发现，支持多种服务分组路由、权重可视化自定义、健康检查等功能，通过它可快速用微服务方式构建自己稳定的可靠分布式应用，并快速实现服务治理. NS架构图如下.  
 
-<img src="./docs/image/ns.png" width="400" align="center"> 
+<img src="./docs/image/ns.png" width="400" <div align="center"> > 
  
 
 * 服务Service
@@ -77,7 +77,7 @@
   
 ##  架构介绍
 
-<div align="center"> ![avatar3](./docs/image/ns_components.png)
+![avatar3](./docs/image/ns_components.png)
 
    OCTO NS由SGAgent、NSC、注册中心、Scanner组成，其中部分管理端Portal页面组成NS功能，如更改服务提供者状态、调整权重. 服务提供者通过通信框架及SDK接入NS，进行服务注册和服务发现.
    
