@@ -110,7 +110,7 @@
 
 * 服务注册  
   
- OCTO NS支持使用NSInvoker(Java SDK)和Mns-SDK发起服务注册，可依赖本地 SGAgent或哨兵SGAgent进行，在使用哨兵SG_Agent发起注册时，SDK可通过 NSC服务获取远程SGAgent哨兵机器列表信息, 通过获得的哨兵机器节点发起服务注册流程，服务提供者注册数据会被写入到ZooKeeper中.从管理端Portal服务提供者页面可查看到不同环境注册的服务提供者信息.
+   OCTO NS支持使用NSInvoker(Java SDK)和Mns-SDK发起服务注册，可依赖本地 SGAgent或哨兵SGAgent进行，在使用哨兵SG_Agent发起注册时，SDK可通过    NSC服务获取远程SGAgent哨兵机器列表信息, 通过获得的哨兵机器节点发起服务注册流程，服务提供者注册数据会被写入到ZooKeeper中.从管理端Portal服务提供者页面可查看到不同环境注册的服务提供者信息.
  
 ![avatar4](./docs/image/registry_sucess.png)
  
