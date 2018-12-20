@@ -134,7 +134,7 @@ INFO  - out: {
 
 ##### 使用C++ NSSdk发起服务注册/服务发现示例
 ---
-见C++ [NSSdk示例说明]()
+见C++ [NSSdk示例说明](https://github.com/Meituan-Dianping/octo-ns/blob/master/mns-sdk/ReadMe.md)
  
 ##### 使用Java NSInvoker发起服务注册/服务发现示例
 添加依赖
