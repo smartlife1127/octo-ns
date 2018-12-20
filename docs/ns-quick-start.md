@@ -72,10 +72,10 @@ sh build_common_cfg.sh  //见conf目录下的README.md介绍
 
 ### SGAgent部署
 ---
-####支持环境
+#### 支持环境
   * CentOS(支持CentOS 6系统)
   
-####依赖初始化
+#### 依赖初始化
 ~~~
 cd common/build  
 sh build_idl.sh  
@@ -83,18 +83,18 @@ cd octo-ns/sg_agent
 sh build.sh init  
 已自带常用第三方依赖库  //见thrid_party README.md详细介绍
 ~~~
-####配置初始化
+#### 配置初始化
 
 >日志级别配置见[Log4cplus使用指南](https://github.com/log4cplus/log4cplus)  
 cd sg_agent  
 修改sg\_agent\_mutable.xml的MnsHost对应地域ZooKeeper地址信息(区分测试和生产环境)
 
-####编译
+#### 编译
 ~~~
 cd octo-ns/sg_agent  
 sh build.sh with_bin  //可执行文件生成
 ~~~
-####运行
+#### 运行
 ~~~
 cd octo-ns/sg_agent/tool  
 sh build_resource.sh  //见配置资源文件介绍 
@@ -136,7 +136,7 @@ INFO  - out: {
 ---
 见C++ [NSSdk示例说明]()
  
-#####使用Java NSInvoker发起服务注册/服务发现示例
+##### 使用Java NSInvoker发起服务注册/服务发现示例
 添加依赖
 
 ~~~
