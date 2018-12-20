@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../build/lib/libmns_sdk.a  CMakeFiles/mns_sdk.dir/src/mns_sdk.cc.o CMakeFiles/mns_sdk.dir/src/mns_worker.cc.o CMakeFiles/mns_sdk.dir/src/util/mns_sdk_common.cc.o CMakeFiles/mns_sdk.dir/src/thrift_client.cc.o CMakeFiles/mns_sdk.dir/src/util/mns_log.cc.o CMakeFiles/mns_sdk.dir/src/util/mns_config.cc.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../build/lib/libmns_sdk.a
