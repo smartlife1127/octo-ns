@@ -40,7 +40,7 @@ Maven 3.2.x+: [downloads](https://maven.apache.org/download.cgi), [settings](htt
 ### 项目下载
 ---
 ~~~
-git clone ${ssh://git@git.sankuai.com/inf/octo-open_source.git}  
+git clone ${https://github.com/Meituan-Dianping/octo-ns.git}  
 ~~~
 
 ### NSInvoker打包
