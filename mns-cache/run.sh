@@ -10,4 +10,4 @@ EXEC_JAVA=$EXEC_JAVA" $JAVA_ARGS"
 
 mvn clean -U package -Dmaven.test.skip=true
 cd target
-$EXEC_JAVA -jar mnsc-0.1.0.jar
+$EXEC_JAVA -jar mnsc-1.0.0.jar

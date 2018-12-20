@@ -122,6 +122,10 @@
 ![avatar6](image/scanner_traits.png)
 
   
+##  使用文档
+
+* [快速开始](https://github.com/smartlife1127/octo-ns/blob/master/docs/ns-quick-start.md)
+  
 ##  未来规划
 
 * 多注册中心的适配

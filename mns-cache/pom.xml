@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.meituan.octo</groupId>
     <artifactId>mnsc</artifactId>
-    <version>0.1.0</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
     <name>mnsc</name>
     <parent>
@@ -15,10 +15,10 @@
     </parent>
 
     <properties>
-        <jackson.version>2.9.3</jackson.version>
+        <jackson.version>2.9.5</jackson.version>
         <log4j.version>2.7</log4j.version>
         <scala.maven.version>3.1.0</scala.maven.version>
-        <scala.version>2.10.4</scala.version>
+        <scala.version>2.10.7</scala.version>
         <slick.version>2.1.0</slick.version>
         <dispatch.version>0.11.2</dispatch.version>
         <play-json.version>2.4.0-M1</play-json.version>
