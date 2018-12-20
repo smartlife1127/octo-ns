@@ -6,7 +6,7 @@
   
  NS支持Java Sdk(详见NSInvoker介绍) 及C++ SDK(NSSdk介绍)注册中心存储ZooKeeper，可帮助业务快速进行服务注册、服务发现，支持多种服务分组路由、权重可视化自定义、健康检查等功能，通过它可快速用微服务方式构建自己稳定的可靠分布式应用，并快速实现服务治理. NS架构图如下.  
 
-<img src="./docs/image/ns.png" width="400"> 
+<object-fit: cover;img src="./docs/image/ns.png" width="400"> 
  
 
 * 服务Service
