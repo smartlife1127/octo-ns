@@ -53,7 +53,7 @@ mvn clean install -Dmaven.test.skip=true
 ### NSC部署
 ---
 
-依赖下载[idl-common](),  [idl-mnsc](), [dorado](),[NSInovker]()
+依赖下载idl-common, idl-mnsc, dorado, NSInovker
 
 ~~~
 cd octo-ns/mns-cache  
